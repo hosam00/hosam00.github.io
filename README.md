@@ -1,4 +1,4 @@
-# Personal Website - Python Web Scraping Expert
+# Personal Website - Hossam Gamal | Python Web Scraping Expert
 
 A modern, responsive personal website showcasing expertise in Python web scraping with 6+ years of experience.
 
@@ -32,18 +32,18 @@ github_personal_website/
 ## 🛠️ Setup for GitHub Pages
 
 ### Method 1: Direct Upload
-1. Create a new repository on GitHub named `username.github.io` (replace `username` with your GitHub username)
+1. Create a new repository on GitHub named `hosam00.github.io`
 2. Upload all files to the repository
 3. Go to repository Settings > Pages
 4. Select "Deploy from a branch" and choose "main" branch
-5. Your site will be available at `https://username.github.io`
+5. Your site will be available at `https://hosam00.github.io`
 
 ### Method 2: Using Git Commands
-1. Create a new repository on GitHub named `username.github.io`
+1. Create a new repository on GitHub named `hosam00.github.io`
 2. Clone this repository locally:
    ```bash
-   git clone https://github.com/username/username.github.io.git
-   cd username.github.io
+   git clone https://github.com/hosam00/hosam00.github.io.git
+   cd hosam00.github.io
    ```
 3. Copy all website files to the cloned directory
 4. Commit and push:
@@ -58,8 +58,8 @@ github_personal_website/
 ### Personal Information
 Update the following in `index.html`:
 
-1. **Name and Title**: Replace "Your Name" in the navigation and hero section
-2. **Contact Information**: Update email, LinkedIn, and GitHub links in the contact section
+1. **Name and Title**: ✅ Already updated to "Hossam Gamal"
+2. **Contact Information**: ✅ GitHub updated to hosam00, update email and LinkedIn
 3. **Professional Summary**: Modify the about section text to reflect your experience
 4. **Projects**: Replace example projects with your actual work
 5. **Timeline**: Update the experience section with your career history

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Python Web Scraping Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Your Name</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Python Web Scraping Expert</h1>
+                <p class="hero-subtitle">6+ Years of Experience in Data Extraction & Automation</p>
+                <p class="hero-description">
+                    Specializing in building robust, scalable web scraping solutions using Python. 
+                    I help businesses extract valuable data from websites efficiently and ethically.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="code-title">scraper.py</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="keyword">import</span> <span class="module">requests</span>
+<span class="keyword">from</span> <span class="module">bs4</span> <span class="keyword">import</span> <span class="class">BeautifulSoup</span>
+<span class="keyword">import</span> <span class="module">pandas</span> <span class="keyword">as</span> <span class="module">pd</span>
+
+<span class="keyword">def</span> <span class="function">scrape_data</span>(<span class="parameter">url</span>):
+    <span class="variable">response</span> = <span class="module">requests</span>.<span class="method">get</span>(<span class="parameter">url</span>)
+    <span class="variable">soup</span> = <span class="class">BeautifulSoup</span>(<span class="variable">response</span>.<span class="property">content</span>)
+    <span class="comment"># Extract valuable data...</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        With over 6 years of specialized experience in Python web scraping, I've helped 
+                        numerous businesses and organizations extract valuable insights from the web. 
+                        My expertise spans from simple data collection scripts to complex, enterprise-grade 
+                        scraping systems.
+                    </p>
+                    <p>
+                        I'm passionate about turning unstructured web data into actionable insights, 
+                        always following ethical scraping practices and respecting robots.txt guidelines.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">BeautifulSoup</span>
+                        <span class="skill-tag">Scrapy</span>
+                        <span class="skill-tag">Selenium</span>
+                        <span class="skill-tag">Requests</span>
+                        <span class="skill-tag">lxml</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Processing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">JSON</span>
+                        <span class="skill-tag">CSV</span>
+                        <span class="skill-tag">XML</span>
+                        <span class="skill-tag">Regular Expressions</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Proxies</span>
+                        <span class="skill-tag">API Integration</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Task Scheduling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience Highlights</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Senior Web Scraping Specialist</h3>
+                        <p class="timeline-period">2021 - Present</p>
+                        <p>Leading complex data extraction projects for enterprise clients. Developed scalable scraping infrastructure handling millions of pages daily.</p>
+                        <ul>
+                            <li>Built fault-tolerant scraping systems with 99.9% uptime</li>
+                            <li>Implemented advanced anti-detection techniques</li>
+                            <li>Reduced data collection time by 80% through optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Python Data Engineer</h3>
+                        <p class="timeline-period">2019 - 2021</p>
+                        <p>Specialized in web scraping and data pipeline development. Created automated solutions for market research and competitive analysis.</p>
+                        <ul>
+                            <li>Developed 50+ custom scraping solutions</li>
+                            <li>Implemented real-time data monitoring systems</li>
+                            <li>Established data quality assurance protocols</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Junior Python Developer</h3>
+                        <p class="timeline-period">2018 - 2019</p>
+                        <p>Started specializing in web scraping technologies. Built foundational skills in Python automation and data extraction.</p>
+                        <ul>
+                            <li>Mastered core scraping libraries and frameworks</li>
+                            <li>Developed efficient data parsing algorithms</li>
+                            <li>Created comprehensive documentation and tutorials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>E-commerce Price Monitor</h3>
+                    <p>Automated price tracking system for competitive analysis across multiple e-commerce platforms. Handles JavaScript-heavy sites and anti-bot measures.</p>
+                    <div class="project-tags">
+                        <span>Selenium</span>
+                        <span>BeautifulSoup</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>News Aggregation Platform</h3>
+                    <p>Real-time news scraping from 100+ sources with sentiment analysis and duplicate detection. Processes 10,000+ articles daily.</p>
+                    <div class="project-tags">
+                        <span>Scrapy</span>
+                        <span>Redis</span>
+                        <span>NLP</span>
+                    </div>
+                    <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Real Estate Data Pipeline</h3>
+                    <p>Comprehensive property data extraction system with automated image processing and market trend analysis.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>AWS Lambda</span>
+                        <span>Computer Vision</span>
+                    </div>
+                    <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Media Analytics Tool</h3>
+                    <p>Advanced scraping solution for social media platforms with respect for rate limits and Terms of Service.</p>
+                    <div class="project-tags">
+                        <span>API Integration</span>
+                        <span>Data Visualization</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Extract Value from Web Data?</h3>
+                    <p>I'm always interested in challenging web scraping projects. Whether you need to extract product data, monitor competitors, or build automated data collection systems, I can help.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/yourprofile</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/yourusername</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Project Type">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved. | Python Web Scraping Expert</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
